@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title></title>
-    </head>
-    <body>
-        
-    </body>
+<head>
+    <meta charset="utf-8" />
+    <title>Simple RPG</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: sans-serif; }
+        #gameCanvas { border: 1px solid #000; background: #eee; }
+        #dialog { margin-top: 10px; padding: 4px; height: 40px; background: #fff; border: 1px solid #000; }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="500" height="500"></canvas>
+    <div id="dialog"></div>
+
+    <script src="map01.js"></script>
+    <script src="rpg.js"></script>
+</body>
 </html>
